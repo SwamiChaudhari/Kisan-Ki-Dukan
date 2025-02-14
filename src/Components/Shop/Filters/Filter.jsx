@@ -126,8 +126,8 @@ const Filter = () => {
           value={priceRange}
           onChange={handlePriceChange}
           valueLabelDisplay="auto"
-          min={100}
-          max={10000}
+          min={10}
+          max={1000}
           sx={{
             color: "black",
             "& .MuiSlider-thumb": {
